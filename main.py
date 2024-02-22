@@ -184,7 +184,7 @@ if __name__ == '__main__':
 
     for quarter in QUARTERS:
         check_quarter_of_chunk(quarter, border_points, x_start, y_start)
-    print(len(dict_of_points))
+    print(f'Total available cells: {len(dict_of_points)}')
 
     # 1000 1000 - 141258
 
